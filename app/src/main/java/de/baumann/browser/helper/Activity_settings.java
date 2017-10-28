@@ -170,7 +170,7 @@ public class Activity_settings extends AppCompatActivity {
     public void onResume(){
         super.onResume();
 
-        String URL = sharedPref.getString("openURL","https://github.com/scoute-dich/browser/");
+        String URL = sharedPref.getString("openURL","https://github.com/JumpingYang001/lvse/");
 
         if (URL.equals("settings_recreate")) {
             updateSettings();
@@ -218,7 +218,7 @@ public class Activity_settings extends AppCompatActivity {
             sharedPref.edit().putString("pictures_string", getString(R.string.app_no)).apply();
         }
 
-        String URL = sharedPref.getString("openURL","https://github.com/scoute-dich/browser/");
+        String URL = sharedPref.getString("openURL","https://github.com/JumpingYang001/lvse/");
 
         if (!URL.equals("settings_recreate")) {
             sharedPref.edit().putString("openURL", "settings").apply();

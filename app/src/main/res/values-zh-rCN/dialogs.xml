@@ -6,7 +6,7 @@
     <string name="changelog_text">
         &lt;b>有关处理的信息，有一个帮助对话框（菜单 - >更多 - >帮助）。&lt;/b>&lt;br>&lt;br>
 
-         &lt; b&gt; v 4.4&lt; br&gt;&lt; br&gt;&lt; br&gt;
+         &lt;br&gt; v 4.4&lt;br&gt;&lt;br&gt;&lt;br&gt;
          - 修复：保存截图&lt;br>
          - 修复：保存包含撇号的条目
          - 修复：选项重新启动应用程序以应用滑动手势&lt;br>

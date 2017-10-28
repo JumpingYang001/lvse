@@ -282,7 +282,7 @@ public class helper_main {
             activity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
         }
 
-        sharedPref.edit().putString("openURL", sharedPref.getString("startURL", "https://github.com/scoute-dich/browser/")).apply();
+        sharedPref.edit().putString("openURL", sharedPref.getString("startURL", "https://github.com/JumpingYang001/lvse/")).apply();
         sharedPref.edit().putString("webView_url", "").apply();
         sharedPref.edit().putInt("keyboard", 0).apply();
         sharedPref.edit().putInt("tab", 0).apply();

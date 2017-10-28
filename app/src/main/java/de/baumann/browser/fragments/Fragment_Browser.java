@@ -754,7 +754,7 @@ public class Fragment_Browser extends Fragment implements ObservableScrollViewCa
         sharedPref.edit().putInt("tab", viewPager.getCurrentItem()).apply();
         sharedPref.edit().putInt("keyboard", 0).apply();
 
-        final String URL = sharedPref.getString("openURL","https://github.com/scoute-dich/browser/");
+        final String URL = sharedPref.getString("openURL","https://github.com/JumpingYang001/lvse/");
 
         if (URL.equals(mWebView.getUrl()) || URL.equals("") && sharedPref.getString("tab_" + tab_number, "").length() > 0) {
             Log.i(TAG, "Tab switched");
@@ -808,7 +808,7 @@ public class Fragment_Browser extends Fragment implements ObservableScrollViewCa
             snackbar.show();
             mWebView.loadUrl(URL.replace("openLogin", ""));
         } else if (sharedPref.getString("tab_" + tab_number, "").isEmpty() && URL.length() == 0) {
-            mWebView.loadUrl(sharedPref.getString("startURL", "https://github.com/scoute-dich/browser/"));
+            mWebView.loadUrl(sharedPref.getString("startURL", "https://github.com/JumpingYang001/lvse/"));
         } else {
             mWebView.loadUrl(URL);
         }
