@@ -34,7 +34,7 @@
 
 “MAH Encryptor Lib”https://github.com/hummatli/MAHEncryptorLib
 
-“关于图书馆的材料”https://github.com/daniel-stoneuk/material-about-library
+“关于库的材料”https://github.com/daniel-stoneuk/material-about-library
 
 “设计图标的材料”https://github.com/Templarian/MaterialDesign
 
