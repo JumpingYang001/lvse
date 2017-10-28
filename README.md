@@ -1,6 +1,20 @@
 # lvse
 
-安卓”绿色浏览器“ forked from https://github.com/scoute-dich/browser
+安卓”绿色浏览器“ forked from https://github.com/scoute-dich/browser ，本软件将修改英文原版的一些功能以便能更符合中国人使用习惯，欢迎提Issue。
+
+# 新版本
+
+第一个中文版本： https://github.com/JumpingYang001/lvse/releases/tag/v4.4.1
+
+# 新功能
+
+1.把scoute-dich/browser翻译成中文。
+
+2.按两次回退键，退出程序。
+
+注意：以下保留https://github.com/scoute-dich/browser 原文内容
+
+Note: We keep content from https://github.com/scoute-dich/browser as following, thanks.
 
 # Browser
 
