@@ -1,3 +1,7 @@
+# lvse
+
+安卓”绿色浏览器“ forked from https://github.com/scoute-dich/browser
+
 # Browser
 
 A simple Android browser based on webview. The goal is to provide a lightweight but power full browser. It is based on several 
