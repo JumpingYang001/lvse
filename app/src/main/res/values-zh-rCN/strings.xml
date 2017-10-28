@@ -55,7 +55,7 @@
     <string name="menu_save_pass">保存到密码库</string>
     <string name="menu_share">分享网站</string>
     <string name="menu_share_screenshot">分享截屏</string>
-    <string name="menu_share_link">分享链接内容</string>
+    <string name="menu_share_link">分享到其他应用</string>
     <string name="menu_share_link_copy">分享链接</string>
     <string name="menu_downloads">打开下载文件夹</string>
     <string name="menu_settings">设置</string>
@@ -276,7 +276,7 @@
     <string name="intro1_title">绿色浏览器</string>
     <string name="intro1_text">感谢您选择“浏览器”。 它是完全开源的，仍在开发中。这里是一个简短的介绍如何使用...</string>
 
-    <string name="intro2_title">名单</string>
+    <string name="intro2_title">列表</string>
     <string name="intro2_text">“浏览器”组成：书签，稍后阅读，密码库和历史记录。</string>
 
     <string name="intro3_title">工具栏</string>
