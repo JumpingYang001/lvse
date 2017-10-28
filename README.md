@@ -16,6 +16,28 @@
 
 2.按两次回退键，退出程序。
 
+# 许可证
+
+该程序是免费软件：您可以根据自由软件基金会发布的GNU通用公共许可证（许可证版本3）或（作为您的选项）任何更高版本的条款重新分发和/或修改它。
+
+这个程序是分发的，希望它是有用的，但没有任何保证;甚至没有适销性或适用于特定用途的隐含保证。有关详细信息，请参阅GNU通用公共许可证。
+
+您应该已经收到GNU通用公共许可证的副本以及此程序。如果没有，请参阅http://www.gnu.org/licenses/。
+
+使用的开源库：
+
+“Android Observable ScrollView”https://github.com/ksoichiro/Android-ObservableScrollView
+
+“Android Onboarder”https://github.com/chyrta/AndroidOnboarder
+
+“滑翔”https://github.com/bumptech/glide
+
+“MAH Encryptor Lib”https://github.com/hummatli/MAHEncryptorLib
+
+“关于图书馆的材料”https://github.com/daniel-stoneuk/material-about-library
+
+“设计图标的材料”https://github.com/Templarian/MaterialDesign
+
 注意：以下保留https://github.com/scoute-dich/browser 原文内容
 
 Note: We keep content from https://github.com/scoute-dich/browser as following, thanks.
