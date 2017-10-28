@@ -6,6 +6,10 @@
 
 第一个中文版本： https://github.com/JumpingYang001/lvse/releases/tag/v4.4.1
 
+# 兼容性
+
+目前只支持安卓5.0以上的机子！（随英文原版兼容性。）
+
 # 新功能
 
 1.把scoute-dich/browser翻译成中文。
