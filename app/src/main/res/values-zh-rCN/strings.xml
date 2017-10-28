@@ -186,7 +186,7 @@
     <string name="action_font_summary">更改网站的字体大小。</string>
 
     <string name="action_backup">备份</string>
-    <string name="action_backup_summary">备份和恢复您的书签，readLater列表，passStorage，您的历史记录和你的javascript白名单 新的备份会覆盖旧的备份。 由于密码库使用唯一的密钥加密，这不行。</string>
+    <string name="action_backup_summary">备份和恢复您的书签，稍后阅读列表，密码库，您的历史记录和你的javascript白名单 新的备份会覆盖旧的备份。 由于密码库使用唯一的密钥加密，这不行。</string>
 
     <string name="action_restore">恢复</string>
 
