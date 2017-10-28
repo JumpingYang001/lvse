@@ -53,6 +53,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
 import com.github.ksoichiro.android.observablescrollview.ObservableWebView;
@@ -116,6 +117,7 @@ public class Fragment_Browser extends Fragment implements ObservableScrollViewCa
     private ValueCallback<Uri[]> mFilePathCallback;
     private static final int REQUEST_CODE_LOLLIPOP = 1;
     private HorizontalScrollView horizontalScrollView;
+    private long exitTime = 0; // for back twice will exit app
 
 
     // Booleans
@@ -715,7 +717,8 @@ public class Fragment_Browser extends Fragment implements ObservableScrollViewCa
         } else if ((mCustomView == null) && mWebView.canGoBack()) {
             mWebView.goBack();
         } else {
-            Snackbar snackbar = Snackbar
+            exit();
+            /*Snackbar snackbar = Snackbar
                     .make(mWebView, getString(R.string.toast_exit), Snackbar.LENGTH_SHORT)
                     .setAction(getString(R.string.toast_yes), new View.OnClickListener() {
                         @Override
@@ -723,7 +726,17 @@ public class Fragment_Browser extends Fragment implements ObservableScrollViewCa
                             helper_main.closeApp(activity, mWebView);
                         }
                     });
-            snackbar.show();
+            snackbar.show();*/
+        }
+    }
+
+    public void exit() {
+        if ((System.currentTimeMillis() - exitTime) > 2000) {
+            Toast.makeText(activity, getString(R.string.twice_exit),
+                    Toast.LENGTH_SHORT).show();
+            exitTime = System.currentTimeMillis();
+        } else {
+            helper_main.closeApp(activity, mWebView);
         }
     }
 
